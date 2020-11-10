@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../webstyle/web.css">
+    <title>Band tour</title>
+</head>
+
+<body>
+    <header>
+        <img src="../images/Jay Skript and the Domsters.gif" alt="">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="bandabout.html">About</a></li>
+            <li><a href="bandphoto.html">Photos</a></li>
+            <li><a href="bandlive.html">Live</a></li>
+            <li><a href="bandcontact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <article>
+        <h1>Contact the band</h1>
+    </article>
+    <div class="formLayout">
+        <form id="bandForm">
+            <label for="Name">Name
+                    <input required name="name" type="text" placeholder="Your name">
+                </label>
+            <label for="Email">Email
+                    <input required name="email" type="email" placeholder="You email address">
+                </label>
+            <label for="Message">Message
+                    <textarea  required name="message" cols="30" rows="10"></textarea>
+                </label>
+            <input type="button" onclick="submitForm()" value="Submit">
+        </form>
+    </div>
+    <script src="../webscript/script.js"></script>
+</body>
+
+</html>

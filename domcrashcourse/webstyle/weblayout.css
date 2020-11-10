@@ -1,0 +1,21 @@
+article .img1 {
+    position: absolute;
+    width: 150px;
+    background-image: url(../images/slideshow.gif);
+}
+
+#about {
+    background-image: url(../images/lineup.gif);
+}
+
+#photos {
+    background-image: url(../images/basshead.gif);
+}
+
+#live {
+    background-image: url(../images/bassist.gif);
+}
+
+#contact {
+    background-image: url(../images/drummer.gif);
+}

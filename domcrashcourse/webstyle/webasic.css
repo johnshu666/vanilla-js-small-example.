@@ -1,0 +1,115 @@
+body {
+    background-color: grey;
+    margin: 0;
+}
+
+body header {
+    display: block;
+    background-color: #333344;
+    border: 1px solid hotpink;
+    background-image: url(../images/guitarist.gif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+nav ul {
+    display: flex;
+    padding-inline-start: 0;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+nav ul li {
+    background-color: wheat;
+    list-style-type: none;
+    flex: 1;
+}
+
+nav ul li a {
+    text-align: center;
+    color: grey;
+    padding: .4em;
+    border: 1px solid grey;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+article {
+    text-align: center;
+}
+
+article h1 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+article p {
+    text-align: start;
+    line-height: 1.5em;
+    margin-left: .5em;
+}
+
+article ul li {
+    text-align: start;
+}
+
+article ul li a:hover {
+    cursor: pointer;
+    background-color: indigo;
+}
+
+.formLayout {
+    display: block;
+    /* background-color: #333344; */
+    padding: 5%;
+}
+
+input[type=text],
+input[type=email] {
+    margin: 8px 0;
+    background-color: #333344;
+    display: block;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+div form textarea {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    background-color: #333344;
+}
+
+input[type=button] {
+    cursor: pointer;
+    width: 100%;
+    margin: 8px 0;
+    background-color: slategrey;
+    padding: 10px 12px;
+}
+
+article div table {
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+
+article div table tr:nth-child(odd) {
+    box-sizing: border-box;
+    background-color: lightpink;
+}
+
+article div table tr:nth-child(even) {
+    background-color: lightcyan;
+}
+
+article div table tr:first-child {
+    background-color: lightsteelblue;
+}
+
+article div table tr td,
+th {
+    padding: 5px 10px;
+}

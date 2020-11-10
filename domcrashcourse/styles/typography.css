@@ -1,0 +1,31 @@
+body {
+    font-size: 76%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body * {
+    font-size: 1em;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+article p {
+    margin: 1em 0;
+}
+
+h1 {
+    font: 2.4em normal;
+}
+
+tr.odd td {
+    color: #223;
+    background-color: #ec8;
+}
+
+tr.highlight td {
+    color: #223;
+    background-color: #cba;
+}
